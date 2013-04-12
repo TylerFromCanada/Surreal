@@ -1,0 +1,201 @@
+.stylesheet-customize-container { width: 75%; }
+#subreddit_stylesheet { display: block; overflow: hidden; }
+.sheets { margin: 0;}
+#stylesheet_contents {
+   padding-left: 5px;
+   padding-top: 5px;
+   background-color: #000000;
+   color: lightgreen;
+   height: 500px
+}
+
+
+
+
+
+.link {
+    background-color: #fff;
+    border: solid 2.5px;
+    padding: 8px;
+    margin-bottom: 25px;
+    width: 75%;
+}
+
+.link:hover {
+     border-left: solid 4px #A4D3EE;
+}
+
+
+body {
+    background-color: #E6E6E6;
+}
+
+.side{
+    margin-right: 0px;
+    border-left: solid 1px #000000;
+    padding: 4px;
+    background-color: #A4D3EE;
+ 
+}
+
+#header{
+    background-color: #A4D3EE;
+    border-color: #000000;
+}
+
+.titlebox form.toggle {
+    background-color: #A4D3EE;
+    }
+
+div.leavemoderator {
+    background-color: #A4D3EE;
+}
+
+div#moderation_tools.sidecontentbox.collapsible a{
+    background-color: #A4D3EE;
+}
+
+div#moderation_tools.sidecontentbox.collapsible ul.content {
+    border-color: #000000;
+}
+
+div.title{
+    background-color: #000000;
+    padding: 8px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.sidecontent .helplink a{ 
+    color: #fff;
+ }
+
+/* PRETTY SUBMIT LINKS by /u/RainbowCrash*/
+
+.morelink
+{
+    font-weight:normal;
+    letter-spacing:0;
+    background:#000000;
+    border: none;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    -o-border-radius:2px;
+    -ms-border-radius:2px;
+    -khtml-border-radius:2px;
+    border-radius:2px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    color: white;
+}
+
+.morelink:hover
+{
+    background: #000000;
+    background-color: #A4D3EE;
+    border-color: #000000;
+    color: #000000;
+}
+
+.morelink .nub 
+{
+    display: none;
+}
+
+.morelink 
+{
+    color:#FFF; 
+    font-family:Verdana, Arial, sans-serif; 
+    font-size:16px; 
+    width: 145px;
+}
+
+.morelink a, .morelink a:hover
+{
+    color: white;
+}
+
+.sidebox.submit-link .morelink::before 
+{
+    display: block;
+    clear: none;
+    content: "Submit a Link";
+    font-size: 95%;
+}
+
+.sidebox.submit-text .morelink::before 
+{
+    display: block;
+    clear: none;
+    content: "Submit a Self Post";
+    font-size: 90%;
+}
+
+.sidebox.submit .morelink a 
+{
+    position: absolute;
+    top: 0;
+    padding-left: 1000px;
+    font-size: 0px;
+    text-align: right;
+    color: #56a6f7;
+}
+
+.sidebox.submit.submit-link {
+    width: 150px;
+}
+
+.sidebox.submit.submit-text
+{
+    margin-top: -42px;
+    margin-left: 153px;
+}
+
+.sidebox.create 
+{
+    display: none;
+}
+
+.sidebox.submit.disabled 
+{
+    display: none;
+}
+
+.tabmenu{
+    margin-bottom: 10px;
+    padding: 10px; 
+   margin-left: 80px;
+}
+
+.tabmenu li a{
+    background-color: #000000;
+    padding: 5px;
+    color: #fff;
+    text-decoration: none; 
+    font-size: 95%;
+    font-weight:normal;
+}
+
+.tabmenu li a:hover{
+    background-color: #A4D3EE;
+    padding: 5px;
+    color: #000000;
+    text-decoration: none; 
+    font-size: 95%;
+    font-weight:normal;
+}
+
+.tabmenu li.selected a{
+    background-color: #A4D3EE;
+    padding: 5px;
+    color: #000000;
+    text-decoration: none; 
+    font-size: 95%;
+    font-weight:normal;
+    border: none;
+}
+
+.tabmenu li{
+    padding: 4px;
+    border-radius: 2px;
+}
